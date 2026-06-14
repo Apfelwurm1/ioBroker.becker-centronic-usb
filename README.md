@@ -1,5 +1,9 @@
 # ioBroker.becker-antrieb-becker-centronic--usb
 
+[![NPM version](https://img.shields.io/npm/v/iobroker.becker-centronic-usb.svg)](https://www.npmjs.com/package/iobroker.becker-centronic-usb)
+[![Downloads](https://img.shields.io/npm/dm/iobroker.becker-centronic-usb.svg)](https://www.npmjs.com/package/iobroker.becker-centronic-usb)
+[![License](https://img.shields.io/github/license/Apfelwurm1/ioBroker.becker-centronic-usb.svg)](LICENSE)
+
 Lokale und cloudfreie Steuerung von Becker Centronic RF Rollläden und Motoren über einen kompatiblen Becker USB-Seriell-Stick (868,3 MHz).
 
 ---

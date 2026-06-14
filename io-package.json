@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "0.1.4",
+    "version": "1.0.0",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,10 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.0": {
+        "en": "Initial stable production release",
+        "de": "Erste stabile Version für den Produktivbetrieb"
+      },
       "0.1.4": {
         "en": "Fix pairing command (0x81) and implement button release simulation",
         "de": "Pairing-Befehl korrigiert (0x81) und Tasten-Loslass-Simulation implementiert"

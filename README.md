@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.3 (2026-07-05)
+- (Apfelwurm1) Address final validation checks, update CI workflow for Node 24 and OS matrix, migrate to shared ESLint configuration and TSConfig, and commit package-lock.json
+
 ### 1.0.2 (2026-07-05)
 - (Apfelwurm1) Fix configuration schema errors, resize adapter logo, translate README to English, and add CI workflow
 
@@ -60,4 +63,6 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 ---
 
 ## License
+Copyright (c) 2026 Apfelwurm1 <Apfelwurm1@users.noreply.github.com>
+
 MIT License. See [LICENSE](LICENSE) for more details.

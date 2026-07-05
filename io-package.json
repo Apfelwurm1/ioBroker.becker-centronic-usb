@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.3": {
+        "en": "Address final validation checks, update CI workflow for Node 24 and OS matrix, migrate to shared ESLint configuration and TSConfig, and commit package-lock.json",
+        "de": "Letzte Validierungsprüfungen behoben, CI-Workflow für Node 24 und OS-Matrix aktualisiert, zu geteilten ESLint- und TSConfigs migriert und package-lock.json committet",
+        "ru": "Выполнены финальные проверки валидации, обновлен рабочий процесс CI для Node 24 и матрицы ОС, выполнен переход на общие конфигурации ESLint и TSConfig, зафиксирован package-lock.json",
+        "pt": "Corrigir verificações finais de validação, atualizar fluxo de trabalho CI para Node 24 e matriz OS, migrar para configurações compartilhadas ESLint e TSConfig, e commitar package-lock.json",
+        "nl": "Laatste validatiecontroles uitgevoerd, CI-workflow voor Node 24 en OS-matrix bijgewerkt, gemigreerd naar gedeelde ESLint- en TSConfigs en package-lock.json gecommitteerd",
+        "fr": "Traitement des vérifications de validation finales, mise à jour du flux de travail CI pour Node 24 et de la matrice OS, migration vers les configurations partagées ESLint et TSConfig, et commit de package-lock.json",
+        "it": "Risolti i controlli di validazione finali, aggiornato il workflow CI per Node 24 e la matrice OS, migrato alle configurazioni condivise ESLint e TSConfig e committato package-lock.json",
+        "es": "Corrección de las últimas comprobaciones de validación, actualización del flujo de trabajo de CI para Node 24 y la matriz de SO, migración a las configuraciones compartidas de ESLint y TSConfig, y confirmación de package-lock.json",
+        "pl": "Rozwiązano końcowe testy walidacyjne, zaktualizowano przepływ pracy CI dla Node 24 i macierzy systemów operacyjnych, zmigrowano do współdzielonych konfiguracji ESLint i TSConfig, oraz zatwierdzono plik package-lock.json",
+        "uk": "Виконано фінальні перевірки валідації, оновлено робочий процес CI для Node 24 та матриці ОС, здійснено перехід на спільні конфігурації ESLint та TSConfig, зафіксовано package-lock.json",
+        "zh-cn": "解决最终的验证检查，更新适用于 Node 24 和 OS 矩阵 de CI 工作流，迁移 to 共享 ESLint 和 TSConfig 架构，并提交 package-lock.json"
+      },
       "1.0.2": {
         "en": "Fix configuration schema errors, resize adapter logo, translate README to English, and add CI workflow",
         "de": "Konfigurations-Schemafehler behoben, Logo-Größe angepasst, README ins Englische übersetzt und CI-Workflow hinzugefügt",

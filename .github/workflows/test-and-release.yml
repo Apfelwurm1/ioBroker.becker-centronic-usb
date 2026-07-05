@@ -20,21 +20,22 @@ jobs:
     steps:
       - uses: ioBroker/testing-action-check@v1
         with:
-          node-version: '22.x'
+          node-version: '24.x'
           lint: true
 
   adapter-tests:
     if: contains(github.event.head_commit.message, '[skip ci]') == false
     needs: [check-and-lint]
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [20.x, 22.x, 24.x]
+        node-version: [22.x, 24.x]
+        os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
       - uses: ioBroker/testing-action-adapter@v1
         with:
           build: true
-          os: 'ubuntu-latest'
+          os: ${{ matrix.os }}
           node-version: ${{ matrix.node-version }}
 
   deploy:
@@ -50,5 +51,5 @@ jobs:
     steps:
       - uses: ioBroker/testing-action-deploy@v1
         with:
-          node-version: '22.x'
+          node-version: '24.x'
           build: true

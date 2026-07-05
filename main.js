@@ -17,7 +17,7 @@ try {
 
 class BeckerCentronicUsb extends utils.Adapter {
   /**
-   * @param {Partial<utils.AdapterOptions>} [options]
+   * @param {Partial<utils.AdapterOptions>} [options] The adapter options
    */
   constructor(options) {
     super({
@@ -319,8 +319,8 @@ class BeckerCentronicUsb extends utils.Adapter {
   /**
    * Is called if a subscribed state changes
    *
-   * @param {string} id
-   * @param {ioBroker.State | null | undefined} state
+   * @param {string} id The ID of the changed state
+   * @param {ioBroker.State | null | undefined} state The state value/object
    */
   async onStateChange(id, state) {
     if (!state) {
@@ -418,7 +418,7 @@ class BeckerCentronicUsb extends utils.Adapter {
   /**
    * Some message was sent to this instance over message box
    *
-   * @param {ioBroker.Message} obj
+   * @param {ioBroker.Message} obj The message object
    */
   async onMessage(obj) {
     this.log.debug(
@@ -491,7 +491,7 @@ class BeckerCentronicUsb extends utils.Adapter {
   /**
    * Is called when adapter shuts down - callback has to be called under any circumstances!
    *
-   * @param {() => void} callback
+   * @param {() => void} callback The callback to call when unload is done
    */
   onUnload(callback) {
     try {
@@ -516,7 +516,7 @@ class BeckerCentronicUsb extends utils.Adapter {
 if (require.main !== module) {
   // Export the constructor in compact mode
   /**
-   * @param {Partial<utils.AdapterOptions>} [options]
+   * @param {Partial<utils.AdapterOptions>} [options] The adapter options
    */
   module.exports = (options) => new BeckerCentronicUsb(options);
 } else {

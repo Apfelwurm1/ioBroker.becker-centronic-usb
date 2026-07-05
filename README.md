@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.4 (2026-07-05)
+- (Apfelwurm1) Address ESLint JSDoc warnings, resolving Github Action CI checks to trigger automatic release deployment
+
 ### 1.0.3 (2026-07-05)
 - (Apfelwurm1) Address final validation checks, update CI workflow for Node 24 and OS matrix, migrate to shared ESLint configuration and TSConfig, and commit package-lock.json
 

@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.4": {
+        "en": "Address ESLint JSDoc warnings, resolving Github Action CI checks to trigger automatic release deployment",
+        "de": "ESLint-JSDoc-Warnungen behoben, GitHub Action CI-Checks erfolgreich beendet, um automatisches Release-Deployment auszulösen",
+        "ru": "Устранены предупреждения ESLint JSDoc, пройдены проверки CI в Github Action для запуска автоматического развертывания релиза",
+        "pt": "Corrigir avisos ESLint JSDoc, resolvendo as verificações Github Action CI para acionar a publicação automática de lançamento",
+        "nl": "ESLint JSDoc-waarschuwingen verholpen, GitHub Action CI-controles opgelost om automatische release-implementatie te starten",
+        "fr": "Correction des avertissements ESLint JSDoc, résolution des vérifications Github Action CI pour déclencher le déploiement automatique de la version",
+        "it": "Risolti gli avvisi ESLint JSDoc, risolti i controlli Github Action CI per attivare il deployment automatico del rilascio",
+        "es": "Se corrigieron las advertencias de ESLint JSDoc, resolviendo las comprobaciones de CI de Github Action para activar la implementación de lanzamiento automático",
+        "pl": "Rozwiązano ostrzeżenia ESLint JSDoc, poprawiono testy sprawdzające Github Action CI w celu uruchomienia automatycznego wdrożenia wersji",
+        "uk": "Усунено попередження ESLint JSDoc, пройдено перевірки CI в Github Action для запуску автоматичного розгортання релізу",
+        "zh-cn": "解决 ESLint JSDoc 警告，通过 GitHub Actions CI 检测以触发自动发布部署"
+      },
       "1.0.3": {
         "en": "Address final validation checks, update CI workflow for Node 24 and OS matrix, migrate to shared ESLint configuration and TSConfig, and commit package-lock.json",
         "de": "Letzte Validierungsprüfungen behoben, CI-Workflow für Node 24 und OS-Matrix aktualisiert, zu geteilten ESLint- und TSConfigs migriert und package-lock.json committet",

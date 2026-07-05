@@ -1,5 +1,6 @@
 node_modules/
 .idea/
-.vscode/
+.vscode/*
 *.log
 .commitinfo
+!.vscode/settings.json

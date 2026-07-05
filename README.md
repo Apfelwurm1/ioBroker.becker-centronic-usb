@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.6 (2026-07-05)
+- (Apfelwurm1) Optimise dependabot configuration, add automerge-dependabot workflow, remove eslint from devDependencies, and add prettier.config.mjs and settings.json
+
 ### 1.0.5 (2026-07-05)
 - (Apfelwurm1) Include eslint and @types/node explicitly in devDependencies to resolve Peer Dependency conflicts in GitHub Actions
 

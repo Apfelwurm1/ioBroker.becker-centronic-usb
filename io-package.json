@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.6": {
+        "en": "Optimise dependabot configuration, add automerge-dependabot workflow, remove eslint from devDependencies, and add prettier.config.mjs and settings.json",
+        "de": "Dependabot-Konfiguration optimiert, automerge-dependabot Workflow hinzugefügt, eslint aus devDependencies entfernt sowie prettier.config.mjs und settings.json hinzugefügt",
+        "ru": "Оптимизирована конфигурация dependabot, добавлен рабочий процесс автоматического слияния, eslint удален из devDependencies, добавлены prettier.config.mjs и settings.json",
+        "pt": "Otimizar configuração dependabot, adicionar fluxo de trabalho automerge-dependabot, remover eslint de devDependencies, e adicionar prettier.config.mjs e settings.json",
+        "nl": "Dependabot-configuratie geoptimaliseerd, automerge-dependabot workflow toegevoegd, eslint verwijderd uit devDependencies en prettier.config.mjs en settings.json toegevoegd",
+        "fr": "Optimisation de la configuration de dependabot, ajout du workflow automerge-dependabot, suppression d'eslint des devDependencies, et ajout de prettier.config.mjs et settings.json",
+        "it": "Ottimizzata la configurazione di dependabot, aggiunto il workflow automerge-dependabot, rimosso eslint da devDependencies e aggiunti prettier.config.mjs e settings.json",
+        "es": "Optimizar la configuración de dependabot, añadir el flujo de trabajo de fusión automática, eliminar eslint de devDependencies, y añadir prettier.config.mjs y settings.json",
+        "pl": "Zoptymalizowano konfigurację dependabot, dodano przepływ pracy automerge-dependabot, usunięto eslint z devDependencies oraz dodano prettier.config.mjs i settings.json",
+        "uk": "Оптимізовано конфігурацію dependabot, додано робочий процес автоматичного злиття, eslint видалено з devDependencies, додано prettier.config.mjs та settings.json",
+        "zh-cn": "优化 dependabot 配置，添加自动合并工作流，移除 devDependencies 中的 eslint，并添加 prettier.config.mjs 和 settings.json"
+      },
       "1.0.5": {
         "en": "Include eslint and @types/node explicitly in devDependencies to resolve Peer Dependency conflicts in GitHub Actions",
         "de": "eslint und @types/node explizit in devDependencies aufgenommen, um Peer-Dependency-Konflikte in GitHub Actions zu beheben",

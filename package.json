@@ -1,6 +1,6 @@
 {
   "name": "iobroker.becker-centronic-usb",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Becker Antriebe Centronic RF USB Shutter Control",
   "author": "Apfelwurm1",
   "license": "MIT",
@@ -44,6 +44,7 @@
     "test:unit": "node test/test_becker.js",
     "test:package": "mocha test/package.js --exit",
     "test:integration": "mocha test/integration.js --exit",
+    "build": "echo \"No build required\"",
     "lint": "eslint ."
   }
 }

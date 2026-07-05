@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.9": {
+        "en": "Add build script to package.json to resolve Github Action adapter-tests CI failure",
+        "de": "build Script zu package.json hinzugefügt, um den Fehler im GitHub Action adapter-tests CI-Schritt zu beheben",
+        "ru": "Добавлен скрипт build в package.json для устранения сбоя в шаге adapter-tests CI в Github Action",
+        "pt": "Adicionar script build ao package.json para resolver a falha do Github Action adapter-tests CI",
+        "nl": "build script toegevoegd aan package.json om de fout in de GitHub Action adapter-tests CI-stap op te lossen",
+        "fr": "Ajout du script build dans package.json pour résoudre l'échec de l'étape adapter-tests CI de Github Action",
+        "it": "Aggiunto lo script build a package.json per risolvere l'errore del passo adapter-tests CI di Github Action",
+        "es": "Añadir el script build a package.json para resolver el fallo de la etapa adapter-tests CI de Github Action",
+        "pl": "Dodano skrypt build do package.json w celu rozwiązania błędu w kroku adapter-tests CI w Github Action",
+        "uk": "Додано скрипт build до package.json для усунення помилки на кроці adapter-tests CI в Github Action",
+        "zh-cn": "在 package.json 中添加 build 脚本，以解决 GitHub Actions 中 adapter-tests CI 步骤 de execution 失败问题"
+      },
       "1.0.8": {
         "en": "Add integration and package files mocha tests using @iobroker/testing to satisfy GitHub Actions adapter-tests",
         "de": "Integrations- und Paketdateien-Mocha-Tests unter Verwendung von @iobroker/testing hinzugefügt, um GitHub Actions adapter-tests zu erfüllen",

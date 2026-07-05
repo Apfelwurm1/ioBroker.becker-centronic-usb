@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.7": {
+        "en": "Add test:package script to package.json to resolve Github Action check-and-lint CI failure",
+        "de": "test:package Script zu package.json hinzugefügt, um den Fehler im GitHub Action check-and-lint CI-Schritt zu beheben",
+        "ru": "Добавлен скрипт test:package в package.json для устранения сбоя в шаге check-and-lint CI в Github Action",
+        "pt": "Adicionar script test:package ao package.json para resolver a falha do Github Action check-and-lint CI",
+        "nl": "test:package script toegevoegd aan package.json om de fout in de GitHub Action check-and-lint CI-stap op te lossen",
+        "fr": "Ajout du script test:package dans package.json pour résoudre l'échec de l'étape check-and-lint CI de Github Action",
+        "it": "Aggiunto lo script test:package a package.json per risolvere l'errore del passo check-and-lint CI di Github Action",
+        "es": "Añadir el script test:package a package.json para resolver el fallo de la etapa check-and-lint CI de Github Action",
+        "pl": "Dodano skrypt test:package do package.json w celu rozwiązania błędu w kroku check-and-lint CI w Github Action",
+        "uk": "Додано скрипт test:package до package.json для усунення помилки на кроці check-and-lint CI в Github Action",
+        "zh-cn": "在 package.json 中添加 test:package 脚本，以解决 GitHub Actions 中 check-and-lint CI 步骤的 execution 失败问题"
+      },
       "1.0.6": {
         "en": "Optimise dependabot configuration, add automerge-dependabot workflow, remove eslint from devDependencies, and add prettier.config.mjs and settings.json",
         "de": "Dependabot-Konfiguration optimiert, automerge-dependabot Workflow hinzugefügt, eslint aus devDependencies entfernt sowie prettier.config.mjs und settings.json hinzugefügt",

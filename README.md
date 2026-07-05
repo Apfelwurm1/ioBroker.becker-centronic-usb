@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.7 (2026-07-05)
+- (Apfelwurm1) Add test:package script to package.json to resolve Github Action check-and-lint CI failure
+
 ### 1.0.6 (2026-07-05)
 - (Apfelwurm1) Optimise dependabot configuration, add automerge-dependabot workflow, remove eslint from devDependencies, and add prettier.config.mjs and settings.json
 

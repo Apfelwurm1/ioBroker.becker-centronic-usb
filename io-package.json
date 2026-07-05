@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.8": {
+        "en": "Add integration and package files mocha tests using @iobroker/testing to satisfy GitHub Actions adapter-tests",
+        "de": "Integrations- und Paketdateien-Mocha-Tests unter Verwendung von @iobroker/testing hinzugefügt, um GitHub Actions adapter-tests zu erfüllen",
+        "ru": "Добавлены интеграционные тесты и тесты файлов пакета с использованием mocha и @iobroker/testing для прохождения проверок в GitHub Actions",
+        "pt": "Adicionar testes mocha de integração e de arquivos de pacote usando @iobroker/testing para atender aos adapter-tests do GitHub Actions",
+        "nl": "Integratie- en pakketbestand mocha-tests toegevoegd met behulp van @iobroker/testing om te voldoen aan de GitHub Actions adapter-tests",
+        "fr": "Ajout de tests mocha d'intégration et de fichiers de package utilisant @iobroker/testing pour satisfaire aux tests d'adaptateur de GitHub Actions",
+        "it": "Aggiunti i test mocha di integrazione e dei file del pacchetto utilizzando @iobroker/testing per soddisfare i test dell'adattatore di GitHub Actions",
+        "es": "Añadir pruebas mocha de integración y de archivos de paquete usando @iobroker/testing para cumplir con las pruebas de adaptador de GitHub Actions",
+        "pl": "Dodano testy integracyjne i testy plików pakietu mocha przy użyciu @iobroker/testing, aby spełnić testy adapterów GitHub Actions",
+        "uk": "Додано інтеграційні тести та тести файлів пакета за допомогою mocha та @iobroker/testing для проходження перевірок в GitHub Actions",
+        "zh-cn": "添加使用 @iobroker/testing 的集成和包文件 mocha 测试，以通过 GitHub Actions 中的 adapter-tests 检测"
+      },
       "1.0.7": {
         "en": "Add test:package script to package.json to resolve Github Action check-and-lint CI failure",
         "de": "test:package Script zu package.json hinzugefügt, um den Fehler im GitHub Action check-and-lint CI-Schritt zu beheben",

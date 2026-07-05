@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.8 (2026-07-05)
+- (Apfelwurm1) Add integration and package files mocha tests using @iobroker/testing to satisfy GitHub Actions adapter-tests
+
 ### 1.0.7 (2026-07-05)
 - (Apfelwurm1) Add test:package script to package.json to resolve Github Action check-and-lint CI failure
 

@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.5 (2026-07-05)
+- (Apfelwurm1) Include eslint and @types/node explicitly in devDependencies to resolve Peer Dependency conflicts in GitHub Actions
+
 ### 1.0.4 (2026-07-05)
 - (Apfelwurm1) Address ESLint JSDoc warnings, resolving Github Action CI checks to trigger automatic release deployment
 

@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.5": {
+        "en": "Include eslint and @types/node explicitly in devDependencies to resolve Peer Dependency conflicts in GitHub Actions",
+        "de": "eslint und @types/node explizit in devDependencies aufgenommen, um Peer-Dependency-Konflikte in GitHub Actions zu beheben",
+        "ru": "Явно добавлены eslint и @types/node в devDependencies для устранения конфликтов зависимостей Peer в GitHub Actions",
+        "pt": "Incluir eslint e @types/node explicitamente em devDependencies para resolver conflitos de Peer Dependency no GitHub Actions",
+        "nl": "eslint en @types/node expliciet opgenomen in devDependencies om Peer Dependency-conflicten in GitHub Actions op te lossen",
+        "fr": "Inclure explicitement eslint et @types/node dans les devDependencies pour résoudre les conflits de Peer Dependency dans GitHub Actions",
+        "it": "Includere esplicitamente eslint e @types/node in devDependencies per risolvere i conflitti di Peer Dependency in GitHub Actions",
+        "es": "Incluir eslint y @types/node explícitamente en devDependencies para resolver conflictos de dependencias de pares en GitHub Actions",
+        "pl": "Jawnie dodano eslint i @types/node do devDependencies w celu rozwiązania konfliktów zależności Peer w GitHub Actions",
+        "uk": "Явно додано eslint та @types/node до devDependencies для вирішення конфліктів залежностей Peer в GitHub Actions",
+        "zh-cn": "在 devDependencies 中显式引入 eslint 和 @types/node，以解决 GitHub Actions 中 Peer Dependency 的依赖冲突"
+      },
       "1.0.4": {
         "en": "Address ESLint JSDoc warnings, resolving Github Action CI checks to trigger automatic release deployment",
         "de": "ESLint-JSDoc-Warnungen behoben, GitHub Action CI-Checks erfolgreich beendet, um automatisches Release-Deployment auszulösen",

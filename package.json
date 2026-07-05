@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@iobroker/testing": "^5.2.2",
+    "@tsconfig/node20": "^20.1.9",
     "@types/node": "^20.0.0",
     "eslint": "^8.57.0"
   },

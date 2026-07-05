@@ -1,50 +1,63 @@
-# ioBroker.becker-antrieb-becker-centronic--usb
+# ioBroker.becker-centronic-usb
 
 [![NPM version](https://img.shields.io/npm/v/iobroker.becker-centronic-usb.svg)](https://www.npmjs.com/package/iobroker.becker-centronic-usb)
 [![Downloads](https://img.shields.io/npm/dm/iobroker.becker-centronic-usb.svg)](https://www.npmjs.com/package/iobroker.becker-centronic-usb)
 [![License](https://img.shields.io/github/license/Apfelwurm1/ioBroker.becker-centronic-usb.svg)](LICENSE)
 
-Lokale und cloudfreie Steuerung von Becker Centronic RF Rollläden und Motoren über einen kompatiblen Becker USB-Seriell-Stick (868,3 MHz).
+Local and cloud-free control of Becker Centronic RF roller shutters and motors using a compatible Becker USB serial stick (868.3 MHz).
 
 ---
 
-## Konfiguration
+## Configuration
 
-### 1. Serielle Schnittstelle
-Tragen Sie den Pfad zur seriellen Schnittstelle Ihres Becker USB-Sticks ein (z. B. `COM3` unter Windows oder `/dev/ttyUSB0` unter Linux).
+### 1. Serial Port
+Enter the path to the serial interface of your Becker USB stick (e.g., `COM3` under Windows or `/dev/ttyUSB0` under Linux).
 
-### 2. Fernbedienungen (Units)
-Definieren Sie Ihre virtuellen Fernbedienungen (Units) in der Tabelle:
-- **Name**: Ein frei wählbarer Name (z. B. "Wohnzimmer links")
-- **Unit ID**: Ein eindeutiger 5-stelliger Hex-Code (z. B. `1737b`). Dieser Code dient als ID der virtuellen Fernbedienung.
-- **Increment**: Der aktuelle Zählerwert für den Rolling Code (Standard `0`).
-
----
-
-## Datenpunkte (States)
-
-Für jede angelegte Unit (z. B. `1737b`) erzeugt der Adapter automatisch die Kanäle `ch1` bis `ch7` mit folgenden Datenpunkten:
-
-- `up` (Button): Rolllade hochfahren
-- `down` (Button): Rolllade herunterfahren
-- `halt` (Button): Fahrt stoppen
-- `pair` (Button): Virtuellen Kanal an den Rollladenmotor anlernen
-- `up_ip` (Button): Obere Zwischenposition anfahren
-- `down_ip` (Button): Untere Zwischenposition (Sonnenschutz) anfahren
-- `level` (Zahl, 0-100%): Positionssteuerung:
-  - `100` = Fährt hoch (UP)
-  - `0` = Fährt runter (DOWN)
-  - `1-99` = Fährt Sonnenschutzposition an (DOWN_IP)
+### 2. Remotes (Units)
+Define your virtual remotes (Units) in the table:
+- **Name**: A freely selectable name (e.g., "Living Room Left")
+- **Unit ID**: A unique 5-digit hex code (e.g., `1737b`). This code serves as the ID of the virtual remote.
+- **Increment**: The current counter value for the rolling code (default `0`).
 
 ---
 
-## Anleitung zum Anlernen (Pairing)
+## States
 
-1. Versetzen Sie den Becker-Rollladenmotor in den **Anlernmodus**, indem Sie den Programmierknopf auf der Rückseite Ihrer *bereits angelernten physischen Original-Fernbedienung* für 3 Sekunden gedrückt halten, bis der Motor kurz klackt.
-2. Setzen Sie in ioBroker den Datenpunkt `becker-antrieb-becker-centronic--usb.0.units.<id>.ch<channel>.pair` auf `true`.
-3. Der Motor bestätigt das erfolgreiche Anlernen durch ein zweifaches Klacken. Der virtuelle Kanal ist nun angelernt.
+For each configured Unit (e.g., `1737b`), the adapter automatically creates channels `ch1` to `ch7` with the following states:
+
+- `up` (Button): Move shutter up
+- `down` (Button): Move shutter down
+- `halt` (Button): Stop movement
+- `pair` (Button): Pair virtual channel with the shutter motor
+- `up_ip` (Button): Drive to upper intermediate position
+- `down_ip` (Button): Drive to lower intermediate position (sun protection)
+- `level` (Number, 0-100%): Position control:
+  - `100` = Drive UP
+  - `0` = Drive DOWN
+  - `1-99` = Drive to sun protection position (DOWN_IP)
 
 ---
 
-## Lizenz
-MIT Lizenz. 
+## Pairing Instructions
+
+1. Put the Becker shutter motor into **pairing mode** by pressing the programming button on the back of your *already paired physical original remote* for 3 seconds until the motor clicks briefly.
+2. In ioBroker, set the state `becker-centronic-usb.0.units.<id>.ch<channel>.pair` to `true`.
+3. The motor confirms successful pairing with a double click. The virtual channel is now paired.
+
+---
+
+## Changelog
+
+### 1.0.2 (2026-07-05)
+- (Apfelwurm1) Fix configuration schema errors, resize adapter logo, translate README to English, and add CI workflow
+
+### 1.0.1 (2026-06-14)
+- (Apfelwurm1) Include MIT LICENSE file in package
+
+### 1.0.0 (2026-06-14)
+- (Apfelwurm1) Initial stable production release
+
+---
+
+## License
+MIT License. See [LICENSE](LICENSE) for more details.

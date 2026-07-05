@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,30 +59,49 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.2": {
+        "en": "Fix configuration schema errors, resize adapter logo, translate README to English, and add CI workflow",
+        "de": "Konfigurations-Schemafehler behoben, Logo-Größe angepasst, README ins Englische übersetzt und CI-Workflow hinzugefügt",
+        "ru": "Исправлены ошибки схемы конфигурации, изменен размер логотипа адаптера, переведен README на английский язык и добавлен рабочий процесс CI",
+        "pt": "Corrigir erros do esquema de configuração, redimensionar o logotipo do adaptador, traduzir o README para inglês e adicionar o fluxo de trabalho do CI",
+        "nl": "Configuratieschemafouten opgelost, grootte adapterlogo aangepast, README in het Engels vertaald en CI-workflow toegevoegd",
+        "fr": "Correction des erreurs de schéma de configuration, redimensionnement du logo de l'adaptateur, traduction du README en anglais et ajout du flux de travail CI",
+        "it": "Corretti gli errori dello schema di configurazione, ridimensionato il logo dell'adattatore, tradotto il README in inglese e aggiunto il flusso di lavoro CI",
+        "es": "Corrección de errores del esquema de configuración, cambio de tamaño del logotipo del adaptador, traducción del README al inglés y adición del flujo de trabajo de CI",
+        "pl": "Naprawiono błędy schematu konfiguracji, zmieniono rozmiar logo adaptera, przetłumaczono README na angielski i dodano przepływ pracy CI",
+        "uk": "Виправлено помилки схеми конфігурації, змінено розмір логотипу адаптера, перекладено README англійською мовою та додано робочий процес CI",
+        "zh-cn": "修复配置架构错误，调整适配器图标大小，将 README 翻译为英文，并添加 CI 工作流"
+      },
       "1.0.1": {
         "en": "Include MIT LICENSE file in package",
-        "de": "MIT-Lizenzdatei im Paket hinzugefügt"
+        "de": "MIT-Lizenzdatei im Paket hinzugefügt",
+        "ru": "Включен файл лицензии MIT в пакет",
+        "pt": "Incluir arquivo de licença MIT no pacote",
+        "nl": "MIT-licentiebestand in pakket opgenomen",
+        "fr": "Inclure le fichier de licence MIT dans le package",
+        "it": "Includere il file di licenza MIT nel pacchetto",
+        "es": "Incluir el archivo de licencia MIT en el paquete",
+        "pl": "Dodano plik licencji MIT do pakietu",
+        "uk": "Включено файл ліцензії MIT в пакет",
+        "zh-cn": "在包中包含 MIT 许可证文件"
       },
       "1.0.0": {
         "en": "Initial stable production release",
-        "de": "Erste stabile Version für den Produktivbetrieb"
-      },
-      "0.1.4": {
-        "en": "Fix pairing command (0x81) and implement button release simulation",
-        "de": "Pairing-Befehl korrigiert (0x81) und Tasten-Loslass-Simulation implementiert"
-      },
-      "0.1.3": {
-        "en": "Fix serial port select dropdown and add unit code generator button",
-        "de": "Fehlerbehebung für seriellen Anschluss und Hinzufügen des Code-Generators"
-      },
-      "0.1.0": {
-        "en": "Initial release",
-        "de": "Erstveröffentlichung"
+        "de": "Erste stabile Version für den Produktivbetrieb",
+        "ru": "Первый стабильный рабочий релиз",
+        "pt": "Lançamento de produção estável inicial",
+        "nl": "Eerste stabiele productieversie",
+        "fr": "Première version de production stable",
+        "it": "Prima release di produzione stabile",
+        "es": "Primera versión de producción estable",
+        "pl": "Pierwsze stabilne wydanie produkcyjne",
+        "uk": "Перший стабільний робочий реліз",
+        "zh-cn": "初始稳定的生产版本"
       }
     },
     "tier": 3,
     "connectionType": "local",
-    "dataSource": "hardware",
+    "dataSource": "push",
     "compact": true,
     "adminUI": {
       "config": "json"

@@ -430,7 +430,7 @@ class BeckerCentronicUsb extends utils.Adapter {
     } else if (obj && obj.command === 'generateRandomCode' && obj.callback) {
       let code = '';
       try {
-        const crypto = require('crypto');
+        const crypto = require('node:crypto');
         code = crypto.randomBytes(3).toString('hex').substring(0, 5);
       } catch (err) {
         // Fallback if crypto is unavailable (highly unlikely in Node.js)

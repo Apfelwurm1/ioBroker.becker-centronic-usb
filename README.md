@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.11 (2026-07-06)
+- (Apfelwurm1) Restore adapter-tests job in GitHub Actions workflow and remove npm-token parameter to enable NPM Trusted Publishing
+
 ### 1.0.10 (2026-07-06)
 - (Apfelwurm1) Clean up devDependencies, configure automerge config rules, add VS Code schema definition for jsonConfig and link legacy changelog
 

@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.12": {
+        "en": "Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements",
+        "de": "Tests und CI-Workflow-Konfigurationen refaktoriert, um die Anforderungen des offiziellen ioBroker-Repositorys zu erfüllen",
+        "ru": "Рефакторинг тестов и конфигураций рабочих процессов CI для соответствия требованиям официального репозитория ioBroker",
+        "pt": "Refatorar testes e configurações de fluxo de trabalho CI para atender aos requisitos do repositório oficial ioBroker",
+        "nl": "Tests en CI-workflowconfiguraties gerefactord om te voldoen aan de officiële ioBroker-repositoryvereisten",
+        "fr": "Réfactoring des tests et des configurations de workflow CI pour satisfaire aux exigences du dépôt officiel ioBroker",
+        "it": "Rifattorizzati i test e le configurazioni del workflow CI per soddisfare i requisiti del repository ufficiale ioBroker",
+        "es": "Refactorizar pruebas y configuraciones de flujo de trabajo de CI para cumplir con los requisitos del repositorio oficial de ioBroker",
+        "pl": "Zrefaktoryzowano testy i konfiguracje przepływu pracy CI, aby spełnić wymagania oficjalnego repozytorium ioBroker",
+        "uk": "Рефакторинг тестів та конфігурацій робочих процесів CI для відповідності вимогам офіційного репозиторію ioBroker",
+        "zh-cn": "重构测试和 CI 工作流配置，以满足官方 ioBroker 仓库的要求"
+      },
       "1.0.11": {
         "en": "Restore adapter-tests job in GitHub Actions workflow and remove npm-token parameter to enable NPM Trusted Publishing",
         "de": "adapter-tests Job im GitHub Actions Workflow wiederhergestellt und npm-token Parameter entfernt, um NPM Trusted Publishing zu aktivieren",
@@ -106,7 +119,7 @@
         "nl": "Integratie- en pakketbestand mocha-tests toegevoegd met behulp van @iobroker/testing om te voldoen aan de GitHub Actions adapter-tests",
         "fr": "Ajout de tests mocha d'intégration et de fichiers de package utilisant @iobroker/testing pour satisfaire aux tests d'adaptateur de GitHub Actions",
         "it": "Aggiunti i test mocha di integrazione e dei file del pacchetto utilizzando @iobroker/testing per soddisfare i test dell'adattatore di GitHub Actions",
-        "es": "Añadir pruebas mocha de integración y de archivos de paquete usando @iobroker/testing para cumplir con las pruebas de adaptador de GitHub Actions",
+        "es": "Añadir pruebas mocha de integración y de archivos de paquete usando @iobroker/testing para cumplir with las pruebas de adaptador de GitHub Actions",
         "pl": "Dodano testy integracyjne i testy plików pakietu mocha przy użyciu @iobroker/testing, aby spełnić testy adapterów GitHub Actions",
         "uk": "Додано інтеграційні тести та тести файлів пакета за допомогою mocha та @iobroker/testing для проходження перевірок в GitHub Actions",
         "zh-cn": "添加使用 @iobroker/testing 的集成和包文件 mocha 测试，以通过 GitHub Actions 中的 adapter-tests 检测"
@@ -136,19 +149,6 @@
         "pl": "Zoptymalizowano konfigurację dependabot, dodano przepływ pracy automerge-dependabot, usunięto eslint z devDependencies oraz dodano prettier.config.mjs i settings.json",
         "uk": "Оптимізовано конфігурацію dependabot, додано робочий процес автоматичного злиття, eslint видалено з devDependencies, додано prettier.config.mjs та settings.json",
         "zh-cn": "优化 dependabot 配置，添加自动合并工作流，移除 devDependencies 中的 eslint，并添加 prettier.config.mjs 和 settings.json"
-      },
-      "1.0.4": {
-        "en": "Address ESLint JSDoc warnings, resolving Github Action CI checks to trigger automatic release deployment",
-        "de": "ESLint-JSDoc-Warnungen behoben, GitHub Action CI-Checks erfolgreich beendet, um automatisches Release-Deployment auszulösen",
-        "ru": "Устранены предупреждения ESLint JSDoc, пройдены проверки CI в Github Action для запуска автоматического развертывания релиза",
-        "pt": "Corrigir avisos ESLint JSDoc, resolvendo as verificações Github Action CI para acionar a publicação automática de lançamento",
-        "nl": "ESLint JSDoc-waarschuwingen verholpen, GitHub Action CI-controles opgelost om automatische release-implementatie te starten",
-        "fr": "Correction des avertissements ESLint JSDoc, résolution des vérifications Github Action CI pour déclencher le déploiement automatique de la version",
-        "it": "Risolti gli avvisi ESLint JSDoc, risolti i controlli Github Action CI per attivare il deployment automatico del rilascio",
-        "es": "Se corrigieron las advertencias de ESLint JSDoc, resolviendo las comprobaciones de CI de Github Action para activar la implementación de lanzamiento automático",
-        "pl": "Rozwiązano ostrzeżenia ESLint JSDoc, poprawiono testy sprawdzające Github Action CI w celu uruchomienia automatycznego wdrożenia wersji",
-        "uk": "Усунено попередження ESLint JSDoc, пройдено перевірки CI в Github Action для запуску автоматичного розгортання релізу",
-        "zh-cn": "解决 ESLint JSDoc 警告，通过 GitHub Actions CI 检测以触发自动发布部署"
       }
     },
     "tier": 3,

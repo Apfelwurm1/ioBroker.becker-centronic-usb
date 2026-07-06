@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,57 +59,18 @@
       "license": "MIT"
     },
     "news": {
-      "1.0.14": {
-        "en": "Add integration test configuration for GitHub Actions compatibility",
-        "de": "Integrations-Test-Konfiguration für GitHub Actions-Kompatibilität hinzugefügt",
-        "ru": "Добавлена конфигурация интеграционных тестов для совместимости с GitHub Actions",
-        "pt": "Adicionar configuração de teste de integração para compatibilidade com o GitHub Actions",
-        "nl": "Integratietestconfiguratie toegevoegd voor compatibiliteit met GitHub Actions",
-        "fr": "Ajout de la configuration des tests d'intégration pour la compatibilité avec GitHub Actions",
-        "it": "Aggiunta la configurazione del test di integrazione per la compatibilità con GitHub Actions",
-        "es": "Añadir configuración de prueba de integración para compatibilidad con GitHub Actions",
-        "pl": "Dodano konfigurację testów integracyjnych w celu zapewnienia zgodności z GitHub Actions",
-        "uk": "Додано конфігурацію інтеграційних тестів для сумісності з GitHub Actions",
-        "zh-cn": "添加集成测试配置以实现 GitHub Actions 兼容性"
-      },
-      "1.0.13": {
-        "en": "Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements",
-        "de": "Tests und CI-Workflow-Konfigurationen refaktoriert, um die Anforderungen des offiziellen ioBroker-Repositorys zu erfüllen",
-        "ru": "Рефакторинг тестов и конфигураций рабочих процессов CI для соответствия требованиям официального репозитория ioBroker",
-        "pt": "Refatorar testes e configurações de fluxo de trabalho CI para atender aos requisitos do repositório oficial ioBroker",
-        "nl": "Tests en CI-workflowconfiguraties gerefactord om te voldoen aan de officiële ioBroker-repositoryvereisten",
-        "fr": "Réfactoring des tests et des configurations de workflow CI pour satisfaire aux exigences du dépôt officiel ioBroker",
-        "it": "Rifattorizzati i test e le configurazioni del workflow CI per soddisfare i requisiti del repository ufficiale ioBroker",
-        "es": "Refactorizar pruebas y configuraciones de flujo de trabajo de CI para cumplir con los requisitos del repositorio oficial de ioBroker",
-        "pl": "Zrefaktoryzowano testy i konfiguracje przepływu pracy CI, aby spełnić wymagania oficjalnego repozytorium ioBroker",
-        "uk": "Рефакторинг тестів та конфігурацій робочих процесів CI для відповідності вимогам офіційного репозиторію ioBroker",
-        "zh-cn": "重构测试和 CI 工作流配置，以满足官方 ioBroker 仓库的要求"
-      },
-      "1.0.12": {
-        "en": "Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements",
-        "de": "Tests und CI-Workflow-Konfigurationen refaktoriert, um die Anforderungen des offiziellen ioBroker-Repositorys zu erfüllen",
-        "ru": "Рефакторинг тестов и конфигураций рабочих процессов CI для соответствия требованиям официального репозитория ioBroker",
-        "pt": "Refatorar testes e configurações de fluxo de trabalho CI para atender aos requisitos do repositório oficial ioBroker",
-        "nl": "Tests en CI-workflowconfiguraties gerefactord om te voldoen aan de officiële ioBroker-repositoryvereisten",
-        "fr": "Réfactoring des tests et des configurations de workflow CI pour satisfaire aux exigences du dépôt officiel ioBroker",
-        "it": "Rifattorizzati i test e le configurazioni del workflow CI per soddisfare i requisiti del repository ufficiale ioBroker",
-        "es": "Refactorizar pruebas y configuraciones de flujo de trabajo de CI para cumplir con los requisitos del repositorio oficial de ioBroker",
-        "pl": "Zrefaktoryzowano testy i konfiguracje przepływu pracy CI, aby spełnić wymagania oficjalnego repozytorium ioBroker",
-        "uk": "Рефакторинг тестів та конфігурацій робочих процесів CI для відповідності вимогам офіційного репозиторію ioBroker",
-        "zh-cn": "重构测试和 CI 工作流配置，以满足官方 ioBroker 仓库的要求"
-      },
-      "1.0.11": {
-        "en": "Restore adapter-tests job in GitHub Actions workflow and remove npm-token parameter to enable NPM Trusted Publishing",
-        "de": "adapter-tests Job im GitHub Actions Workflow wiederhergestellt und npm-token Parameter entfernt, um NPM Trusted Publishing zu aktivieren",
-        "ru": "Восстановлен шаг adapter-tests в рабочем процессе GitHub Actions и удален параметр npm-token для включения доверенной публикации в NPM",
-        "pt": "Restaurar o trabalho adapter-tests no fluxo de trabalho do GitHub Actions e remover o parâmetro npm-token para ativar a Publicação Confiável do NPM",
-        "nl": "adapter-tests job in GitHub Actions-workflow hersteld en npm-token parameter verwijderd om NPM Trusted Publishing in te schakelen",
-        "fr": "Restauration du job adapter-tests dans le workflow GitHub Actions et suppression du paramètre npm-token pour activer la publication sécurisée de NPM",
-        "it": "Ripristinato il job adapter-tests nel workflow di GitHub Actions e rimosso il parametro npm-token per abilitare il Trusted Publishing su NPM",
-        "es": "Restaurar el trabajo adapter-tests en el flujo de trabajo de GitHub Actions y eliminar el parámetro npm-token para habilitar la publicación confiable de NPM",
-        "pl": "Przywrócono krok adapter-tests w przepływie pracy GitHub Actions i usunięto parametr npm-token w celu włączenia zaufanego publikowania NPM",
-        "uk": "Відновлено крок adapter-tests у робочому процесі GitHub Actions та вилучено параметр npm-token для ввімкнення довіреної публікації в NPM",
-        "zh-cn": "在 GitHub Actions 工作流中恢复 adapter-tests 步骤，并移除 npm-token 参数以启用 NPM 受信发布"
+      "1.0.15": {
+        "en": "Finalize integration tests and CI setup for official repository approval",
+        "de": "Integrations-Tests und CI-Setup für die offizielle Freigabe des Repositories abgeschlossen",
+        "ru": "Завершены интеграционные тесты и настройка CI для официального утверждения репозитория",
+        "pt": "Finalizar testes de integração e configuração do CI para aprovação do repositório oficial",
+        "nl": "Integratietest- en CI-setup voltooid voor officiële repository-goedkeuring",
+        "fr": "Finalisation des tests d'intégration et de la configuration CI pour l'approbation du dépôt officiel",
+        "it": "Finalizzati i test di integrazione e la configurazione CI per l'approvazione del repository ufficiale",
+        "es": "Finalizar pruebas de integración y configuración de CI para la aprobación del repositorio oficial",
+        "pl": "Sfinalizowano testy integracyjne i konfigurację CI w celu oficjalnego zatwierdzenia repozytorium",
+        "uk": "Завершено інтеграційні тести та налаштування CI для офіційного затвердження репозиторію",
+        "zh-cn": "完成集成测试和 CI 设置以获得官方仓库的批准"
       },
       "1.0.10": {
         "en": "Clean up devDependencies, configure automerge config rules, add VS Code schema definition for jsonConfig and link legacy changelog",

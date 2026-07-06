@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.15 (2026-07-06)
+- (Apfelwurm1) Clean up news section to only contain versions published to npm, solving E2004
+
 ### 1.0.14 (2026-07-06)
 - (Apfelwurm1) Add integration test configuration for GitHub Actions compatibility
 

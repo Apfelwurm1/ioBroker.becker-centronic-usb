@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.13": {
+        "en": "Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements",
+        "de": "Tests und CI-Workflow-Konfigurationen refaktoriert, um die Anforderungen des offiziellen ioBroker-Repositorys zu erfüllen",
+        "ru": "Рефакторинг тестов и конфигураций рабочих процессов CI для соответствия требованиям официального репозитория ioBroker",
+        "pt": "Refatorar testes e configurações de fluxo de trabalho CI para atender aos requisitos do repositório oficial ioBroker",
+        "nl": "Tests en CI-workflowconfiguraties gerefactord om te voldoen aan de officiële ioBroker-repositoryvereisten",
+        "fr": "Réfactoring des tests et des configurations de workflow CI pour satisfaire aux exigences du dépôt officiel ioBroker",
+        "it": "Rifattorizzati i test e le configurazioni del workflow CI per soddisfare i requisiti del repository ufficiale ioBroker",
+        "es": "Refactorizar pruebas y configuraciones de flujo de trabajo de CI para cumplir con los requisitos del repositorio oficial de ioBroker",
+        "pl": "Zrefaktoryzowano testy i konfiguracje przepływu pracy CI, aby spełnić wymagania oficjalnego repozytorium ioBroker",
+        "uk": "Рефакторинг тестів та конфігурацій робочих процесів CI для відповідності вимогам офіційного репозиторію ioBroker",
+        "zh-cn": "重构测试和 CI 工作流配置，以满足官方 ioBroker 仓库的要求"
+      },
       "1.0.12": {
         "en": "Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements",
         "de": "Tests und CI-Workflow-Konfigurationen refaktoriert, um die Anforderungen des offiziellen ioBroker-Repositorys zu erfüllen",
@@ -136,19 +149,6 @@
         "pl": "Dodano skrypt test:package do package.json w celu rozwiązania błędu w kroku check-and-lint CI w Github Action",
         "uk": "Додано скрипт test:package до package.json для усунення помилки на кроці check-and-lint CI в Github Action",
         "zh-cn": "在 package.json 中添加 test:package 脚本，以解决 GitHub Actions 中 check-and-lint CI 步骤的 execution 失败问题"
-      },
-      "1.0.6": {
-        "en": "Optimise dependabot configuration, add automerge-dependabot workflow, remove eslint from devDependencies, and add prettier.config.mjs and settings.json",
-        "de": "Dependabot-Konfiguration optimiert, automerge-dependabot Workflow hinzugefügt, eslint aus devDependencies entfernt sowie prettier.config.mjs und settings.json hinzugefügt",
-        "ru": "Оптимизирована конфигурация dependabot, добавлен рабочий процесс автоматического слияния, eslint удален из devDependencies, добавлены prettier.config.mjs и settings.json",
-        "pt": "Otimizar configuração dependabot, adicionar fluxo de trabalho automerge-dependabot, remover eslint de devDependencies, e adicionar prettier.config.mjs and settings.json",
-        "nl": "Dependabot-configuratie geoptimaliseerd, automerge-dependabot workflow toegevoegd, eslint verwijderd uit devDependencies en prettier.config.mjs en settings.json toegevoegd",
-        "fr": "Optimisation de la configuration de dependabot, ajout du workflow automerge-dependabot, suppression d'eslint des devDependencies, et ajout de prettier.config.mjs et settings.json",
-        "it": "Ottimizzata la configurazione di dependabot, aggiunto il workflow automerge-dependabot, rimosso eslint da devDependencies e aggiunti prettier.config.mjs e settings.json",
-        "es": "Optimizar la configuración de dependabot, añadir el flujo de trabajo de fusión automática, eliminar eslint de devDependencies, y añadir prettier.config.mjs y settings.json",
-        "pl": "Zoptymalizowano konfigurację dependabot, dodano przepływ pracy automerge-dependabot, usunięto eslint z devDependencies oraz dodano prettier.config.mjs i settings.json",
-        "uk": "Оптимізовано конфігурацію dependabot, додано робочий процес автоматичного злиття, eslint видалено з devDependencies, додано prettier.config.mjs та settings.json",
-        "zh-cn": "优化 dependabot 配置，添加自动合并工作流，移除 devDependencies 中的 eslint，并添加 prettier.config.mjs 和 settings.json"
       }
     },
     "tier": 3,

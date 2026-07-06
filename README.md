@@ -48,6 +48,12 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.13 (2026-07-06)
+- (Apfelwurm1) Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements
+
+### 1.0.12 (2026-07-06)
+- (Apfelwurm1) Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements
+
 ### 1.0.11 (2026-07-06)
 - (Apfelwurm1) Restore adapter-tests job in GitHub Actions workflow and remove npm-token parameter to enable NPM Trusted Publishing
 

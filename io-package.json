@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.10": {
+        "en": "Clean up devDependencies, configure automerge config rules, add VS Code schema definition for jsonConfig and link legacy changelog",
+        "de": "devDependencies bereinigt, Automerge-Konfigurationsregeln definiert, VS Code Schema-Definition für jsonConfig hinzugefügt und Link für altes Changelog eingebaut",
+        "ru": "Очищены devDependencies, настроены правила автослияния, добавлено сопоставление схем VS Code для jsonConfig и ссылка на старый журнал изменений",
+        "pt": "Limpar devDependencies, configurar regras automerge, adicionar definição de esquema VS Code para jsonConfig e vincular o histórico de alterações antigo",
+        "nl": "devDependencies opgeschoond, automerge-configuratieregels gedefinieerd, VS Code schema-definitie voor jsonConfig toegevoegd en link naar oud changelog toegevoegd",
+        "fr": "Nettoyage des devDependencies, configuration des règles d'automerge, ajout de la définition de schéma VS Code pour jsonConfig et ajout du lien vers l'ancien changelog",
+        "it": "Pulito devDependencies, configurate le regole di automerge, aggiunta la definizione dello schema VS Code per jsonConfig e inserito il link al vecchio changelog",
+        "es": "Limpiar devDependencies, configurar reglas de automerge, añadir definición de esquema de VS Code para jsonConfig y enlazar el historial de cambios antiguo",
+        "pl": "Oczyszczono devDependencies, skonfigurowano reguły automatycznego scalania, dodano definicję schematu VS Code dla jsonConfig i link do starego dziennika zmian",
+        "uk": "Очищено devDependencies, налаштовано правила автоматичного злиття, додано визначення схеми VS Code для jsonConfig та посилання на старий журнал змін",
+        "zh-cn": "清理 devDependencies，配置自动合并配置规则，为 jsonConfig 添加 VS Code 架构定义，并链接旧的变更日志"
+      },
       "1.0.9": {
         "en": "Add build script to package.json to resolve Github Action adapter-tests CI failure",
         "de": "build Script zu package.json hinzugefügt, um den Fehler im GitHub Action adapter-tests CI-Schritt zu beheben",
@@ -102,7 +115,7 @@
         "en": "Optimise dependabot configuration, add automerge-dependabot workflow, remove eslint from devDependencies, and add prettier.config.mjs and settings.json",
         "de": "Dependabot-Konfiguration optimiert, automerge-dependabot Workflow hinzugefügt, eslint aus devDependencies entfernt sowie prettier.config.mjs und settings.json hinzugefügt",
         "ru": "Оптимизирована конфигурация dependabot, добавлен рабочий процесс автоматического слияния, eslint удален из devDependencies, добавлены prettier.config.mjs и settings.json",
-        "pt": "Otimizar configuração dependabot, adicionar fluxo de trabalho automerge-dependabot, remover eslint de devDependencies, e adicionar prettier.config.mjs e settings.json",
+        "pt": "Otimizar configuração dependabot, adicionar fluxo de trabalho automerge-dependabot, remover eslint de devDependencies, e adicionar prettier.config.mjs and settings.json",
         "nl": "Dependabot-configuratie geoptimaliseerd, automerge-dependabot workflow toegevoegd, eslint verwijderd uit devDependencies en prettier.config.mjs en settings.json toegevoegd",
         "fr": "Optimisation de la configuration de dependabot, ajout du workflow automerge-dependabot, suppression d'eslint des devDependencies, et ajout de prettier.config.mjs et settings.json",
         "it": "Ottimizzata la configurazione di dependabot, aggiunto il workflow automerge-dependabot, rimosso eslint da devDependencies e aggiunti prettier.config.mjs e settings.json",
@@ -136,58 +149,6 @@
         "pl": "Rozwiązano ostrzeżenia ESLint JSDoc, poprawiono testy sprawdzające Github Action CI w celu uruchomienia automatycznego wdrożenia wersji",
         "uk": "Усунено попередження ESLint JSDoc, пройдено перевірки CI в Github Action для запуску автоматичного розгортання релізу",
         "zh-cn": "解决 ESLint JSDoc 警告，通过 GitHub Actions CI 检测以触发自动发布部署"
-      },
-      "1.0.3": {
-        "en": "Address final validation checks, update CI workflow for Node 24 and OS matrix, migrate to shared ESLint configuration and TSConfig, and commit package-lock.json",
-        "de": "Letzte Validierungsprüfungen behoben, CI-Workflow für Node 24 und OS-Matrix aktualisiert, zu geteilten ESLint- und TSConfigs migriert und package-lock.json committet",
-        "ru": "Выполнены финальные проверки валидации, обновлен рабочий процесс CI для Node 24 и матрицы ОС, выполнен переход на общие конфигурации ESLint и TSConfig, зафиксирован package-lock.json",
-        "pt": "Corrigir verificações finais de validação, atualizar fluxo de trabalho CI para Node 24 e matriz OS, migrar para configurações compartilhadas ESLint e TSConfig, e commitar package-lock.json",
-        "nl": "Laatste validatiecontroles uitgevoerd, CI-workflow voor Node 24 en OS-matrix bijgewerkt, gemigreerd naar gedeelde ESLint- en TSConfigs en package-lock.json gecommitteerd",
-        "fr": "Traitement des vérifications de validation finales, mise à jour du flux de travail CI pour Node 24 et de la matrice OS, migration vers les configurations partagées ESLint et TSConfig, et commit de package-lock.json",
-        "it": "Risolti i controlli di validazione finali, aggiornato il workflow CI per Node 24 e la matrice OS, migrato alle configurazioni condivise ESLint e TSConfig e committato package-lock.json",
-        "es": "Corrección de las últimas comprobaciones de validación, actualización del flujo de trabajo de CI para Node 24 y la matriz de SO, migración a las configuraciones compartidas de ESLint y TSConfig, y confirmación de package-lock.json",
-        "pl": "Rozwiązano końcowe testy walidacyjne, zaktualizowano przepływ pracy CI dla Node 24 i macierzy systemów operacyjnych, zmigrowano do współdzielonych konfiguracji ESLint i TSConfig, oraz zatwierdzono plik package-lock.json",
-        "uk": "Виконано фінальні перевірки валідації, оновлено робочий процес CI для Node 24 та матриці ОС, здійснено перехід на спільні конфігурації ESLint та TSConfig, зафіксовано package-lock.json",
-        "zh-cn": "解决最终的验证检查，更新适用于 Node 24 和 OS 矩阵 de CI 工作流，迁移 to 共享 ESLint 和 TSConfig 架构，并提交 package-lock.json"
-      },
-      "1.0.2": {
-        "en": "Fix configuration schema errors, resize adapter logo, translate README to English, and add CI workflow",
-        "de": "Konfigurations-Schemafehler behoben, Logo-Größe angepasst, README ins Englische übersetzt und CI-Workflow hinzugefügt",
-        "ru": "Исправлены ошибки схемы конфигурации, изменен размер логотипа адаптера, переведен README на английский язык и добавлен рабочий процесс CI",
-        "pt": "Corrigir erros do esquema de configuração, redimensionar o logotipo do adaptador, traduzir o README para inglês e adicionar o fluxo de trabalho do CI",
-        "nl": "Configuratieschemafouten opgelost, grootte adapterlogo aangepast, README in het Engels vertaald en CI-workflow toegevoegd",
-        "fr": "Correction des erreurs de schéma de configuration, redimensionnement du logo de l'adaptateur, traduction du README en anglais et ajout du flux de travail CI",
-        "it": "Corretti gli errori dello schema di configurazione, ridimensionato il logo dell'adattatore, tradotto il README in inglese e aggiunto il flusso di lavoro CI",
-        "es": "Corrección de errores del esquema de configuración, cambio de tamaño del logotipo del adaptador, traducción del README al inglés y adición del flujo de trabajo de CI",
-        "pl": "Naprawiono błędy schematu konfiguracji, zmieniono rozmiar logo adaptera, przetłumaczono README na angielski i dodano przepływ pracy CI",
-        "uk": "Виправлено помилки схеми конфігурації, змінено розмір логотипу адаптера, перекладено README англійською мовою та додано робочий процес CI",
-        "zh-cn": "修复配置架构错误，调整适配器图标大小，将 README 翻译为英文，并添加 CI 工作流"
-      },
-      "1.0.1": {
-        "en": "Include MIT LICENSE file in package",
-        "de": "MIT-Lizenzdatei im Paket hinzugefügt",
-        "ru": "Включен файл лицензии MIT в пакет",
-        "pt": "Incluir arquivo de licença MIT no pacote",
-        "nl": "MIT-licentiebestand in pakket opgenomen",
-        "fr": "Inclure le fichier de licence MIT dans le package",
-        "it": "Includere il file di licenza MIT nel pacchetto",
-        "es": "Incluir el archivo de licencia MIT en el paquete",
-        "pl": "Dodano plik licencji MIT do pakietu",
-        "uk": "Включено файл ліцензії MIT в пакет",
-        "zh-cn": "在包中包含 MIT 许可证文件"
-      },
-      "1.0.0": {
-        "en": "Initial stable production release",
-        "de": "Erste stabile Version für den Produktivbetrieb",
-        "ru": "Первый стабильный рабочий релиз",
-        "pt": "Lançamento de produção estável inicial",
-        "nl": "Eerste stabiele productieversie",
-        "fr": "Première version de production stable",
-        "it": "Prima release di produzione stabile",
-        "es": "Primera versión de producción estable",
-        "pl": "Pierwsze stabilne wydanie produkcyjne",
-        "uk": "Перший стабільний робочий реліз",
-        "zh-cn": "初始稳定的生产版本"
       }
     },
     "tier": 3,

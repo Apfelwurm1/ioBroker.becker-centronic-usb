@@ -1,0 +1,12 @@
+# Configure here which dependency updates should be merged automatically.
+- match:
+    # Merge patch updates for production dependencies
+    dependency_type: production
+    update_type: "semver:patch"
+- match:
+    # Merge patch and minor updates for development dependencies
+    dependency_type: development
+    update_type: "semver:patch"
+- match:
+    dependency_type: development
+    update_type: "semver:minor"

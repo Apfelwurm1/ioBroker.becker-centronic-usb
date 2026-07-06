@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.10 (2026-07-06)
+- (Apfelwurm1) Clean up devDependencies, configure automerge config rules, add VS Code schema definition for jsonConfig and link legacy changelog
+
 ### 1.0.9 (2026-07-05)
 - (Apfelwurm1) Add build script to package.json to resolve Github Action adapter-tests CI failure
 
@@ -77,6 +80,8 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ### 1.0.0 (2026-06-14)
 - (Apfelwurm1) Initial stable production release
+
+Older changelog entries can be found in [CHANGELOG_OLD.md](CHANGELOG_OLD.md).
 
 ---
 

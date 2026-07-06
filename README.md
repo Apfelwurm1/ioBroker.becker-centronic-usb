@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.17 (2026-07-06)
+- (Apfelwurm1) Clean up devDependencies and remove mocha package to meet repository standard requirements
+
 ### 1.0.16 (2026-07-06)
 - (Apfelwurm1) Restrict supported operating systems to Linux and Windows, resolving macOS testing requirements
 

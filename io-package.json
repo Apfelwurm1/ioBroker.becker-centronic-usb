@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,24 +59,24 @@
       "license": "MIT"
     },
     "news": {
-      "1.0.15": {
-        "en": "Finalize integration tests and CI setup for official repository approval",
-        "de": "Integrations-Tests und CI-Setup für die offizielle Freigabe des Repositories abgeschlossen",
-        "ru": "Завершены интеграционные тесты и настройка CI для официального утверждения репозитория",
-        "pt": "Finalizar testes de integração e configuração do CI para aprovação do repositório oficial",
-        "nl": "Integratietest- en CI-setup voltooid voor officiële repository-goedkeuring",
-        "fr": "Finalisation des tests d'intégration et de la configuration CI pour l'approbation du dépôt officiel",
-        "it": "Finalizzati i test di integrazione e la configurazione CI per l'approvazione del repository ufficiale",
-        "es": "Finalizar pruebas de integración y configuración de CI para la aprobación del repositorio oficial",
-        "pl": "Sfinalizowano testy integracyjne i konfigurację CI w celu oficjalnego zatwierdzenia repozytorium",
-        "uk": "Завершено інтеграційні тести та налаштування CI для офіційного затвердження репозиторію",
-        "zh-cn": "完成集成测试和 CI 设置以获得官方仓库的批准"
+      "1.0.16": {
+        "en": "Restrict supported operating systems to Linux and Windows, resolving macOS testing requirements",
+        "de": "Unterstützte Betriebssysteme auf Linux und Windows eingeschränkt, um macOS-Testanforderungen zu beheben",
+        "ru": "Ограничена поддержка операционных систем Linux и Windows, устранены требования к тестированию на macOS",
+        "pt": "Restringir sistemas operacionais suportados para Linux e Windows, resolvendo os requisitos de teste do macOS",
+        "nl": "Ondersteunde besturingssystemen beperkt tot Linux en Windows, waarmee macOS-testvereisten zijn opgelost",
+        "fr": "Restriction des systèmes d'exploitation pris en charge à Linux et Windows, résolvant les exigences de test de macOS",
+        "it": "Limitati i sistemi operativi supportati a Linux e Windows, risolvendo i requisiti di test di macOS",
+        "es": "Limitar los sistemas operativos compatibles a Linux y Windows, resolviendo los requisitos de prueba de macOS",
+        "pl": "Ograniczono obsługiwane systemy operacyjne do systemów Linux i Windows, co rozwiązuje wymagania dotyczące testowania systemu macOS",
+        "uk": "Обмежено підтримувані операційні системи Linux та Windows, усунено вимоги щодо тестування на macOS",
+        "zh-cn": "将支持的的操作系统限制为 Linux 和 Windows，以解决 macOS 测试要求"
       },
       "1.0.10": {
         "en": "Clean up devDependencies, configure automerge config rules, add VS Code schema definition for jsonConfig and link legacy changelog",
         "de": "devDependencies bereinigt, Automerge-Konfigurationsregeln definiert, VS Code Schema-Definition für jsonConfig hinzugefügt und Link für altes Changelog eingebaut",
         "ru": "Очищены devDependencies, настроены правила автослияния, добавлено сопоставление схем VS Code для jsonConfig и ссылка на старый журнал изменений",
-        "pt": "Limpar devDependencies, configurar regras automerge, adicionar definição de esquema VS Code para jsonConfig e vincular o histórico de alterações antigo",
+        "pt": "Limpar devDependencies, configurar regras automerge, adicionar definição de esquema de VS Code para jsonConfig e vincular o histórico de alterações antigo",
         "nl": "devDependencies opgeschoond, automerge-configuratieregels gedefinieerd, VS Code schema-definitie voor jsonConfig toegevoegd en link naar oud changelog toegevoegd",
         "fr": "Nettoyage des devDependencies, configuration des règles d'automerge, ajout de la définition de schéma VS Code pour jsonConfig et ajout du lien vers l'ancien changelog",
         "it": "Pulito devDependencies, configurate le regole di automerge, aggiunta la definizione dello schema VS Code per jsonConfig e inserito il link al vecchio changelog",

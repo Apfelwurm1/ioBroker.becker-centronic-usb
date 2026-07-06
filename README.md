@@ -48,6 +48,9 @@ For each configured Unit (e.g., `1737b`), the adapter automatically creates chan
 
 ## Changelog
 
+### 1.0.14 (2026-07-06)
+- (Apfelwurm1) Add integration test configuration for GitHub Actions compatibility
+
 ### 1.0.13 (2026-07-06)
 - (Apfelwurm1) Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements
 

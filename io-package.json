@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "becker-centronic-usb",
-    "version": "1.0.13",
+    "version": "1.0.14",
     "titleLang": {
       "en": "Becker Centronic USB",
       "de": "Becker Centronic USB",
@@ -59,6 +59,19 @@
       "license": "MIT"
     },
     "news": {
+      "1.0.14": {
+        "en": "Add integration test configuration for GitHub Actions compatibility",
+        "de": "Integrations-Test-Konfiguration für GitHub Actions-Kompatibilität hinzugefügt",
+        "ru": "Добавлена конфигурация интеграционных тестов для совместимости с GitHub Actions",
+        "pt": "Adicionar configuração de teste de integração para compatibilidade com o GitHub Actions",
+        "nl": "Integratietestconfiguratie toegevoegd voor compatibiliteit met GitHub Actions",
+        "fr": "Ajout de la configuration des tests d'intégration pour la compatibilité avec GitHub Actions",
+        "it": "Aggiunta la configurazione del test di integrazione per la compatibilità con GitHub Actions",
+        "es": "Añadir configuración de prueba de integración para compatibilidad con GitHub Actions",
+        "pl": "Dodano konfigurację testów integracyjnych w celu zapewnienia zgodności z GitHub Actions",
+        "uk": "Додано конфігурацію інтеграційних тестів для сумісності з GitHub Actions",
+        "zh-cn": "添加集成测试配置以实现 GitHub Actions 兼容性"
+      },
       "1.0.13": {
         "en": "Refactor tests and CI workflow configurations to satisfy official ioBroker repository requirements",
         "de": "Tests und CI-Workflow-Konfigurationen refaktoriert, um die Anforderungen des offiziellen ioBroker-Repositorys zu erfüllen",
@@ -136,19 +149,6 @@
         "pl": "Dodano testy integracyjne i testy plików pakietu mocha przy użyciu @iobroker/testing, aby spełnić testy adapterów GitHub Actions",
         "uk": "Додано інтеграційні тести та тести файлів пакета за допомогою mocha та @iobroker/testing для проходження перевірок в GitHub Actions",
         "zh-cn": "添加使用 @iobroker/testing 的集成和包文件 mocha 测试，以通过 GitHub Actions 中的 adapter-tests 检测"
-      },
-      "1.0.7": {
-        "en": "Add test:package script to package.json to resolve Github Action check-and-lint CI failure",
-        "de": "test:package Script zu package.json hinzugefügt, um den Fehler im GitHub Action check-and-lint CI-Schritt zu beheben",
-        "ru": "Добавлен скрипт test:package в package.json для устранения сбоя в шаге check-and-lint CI в Github Action",
-        "pt": "Adicionar script test:package ao package.json para resolver a falha do Github Action check-and-lint CI",
-        "nl": "test:package script toegevoegd aan package.json om de fout in de GitHub Action check-and-lint CI-stap op te lossen",
-        "fr": "Ajout du script test:package dans package.json pour résoudre l'échec de l'étape check-and-lint CI de Github Action",
-        "it": "Aggiunto lo script test:package a package.json per risolvere l'errore del passo check-and-lint CI di Github Action",
-        "es": "Añadir el script test:package a package.json para resolver el fallo de la etapa check-and-lint CI de Github Action",
-        "pl": "Dodano skrypt test:package do package.json w celu rozwiązania błędu w kroku check-and-lint CI w Github Action",
-        "uk": "Додано скрипт test:package до package.json для усунення помилки на кроці check-and-lint CI в Github Action",
-        "zh-cn": "在 package.json 中添加 test:package 脚本，以解决 GitHub Actions 中 check-and-lint CI 步骤的 execution 失败问题"
       }
     },
     "tier": 3,
